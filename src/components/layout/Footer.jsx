@@ -103,9 +103,9 @@ const Footer = () => {
 
             <p className="text-gray-400 text-sm">
               Developed by{" "}
-              <span className="text-pink-400 font-semibold">
+              <Link to="https://konchada-ayush-portfolio.vercel.app/" className="text-pink-400 font-semibold">
                 Ayush
-              </span>
+              </Link>
             </p>
 
           </div>
