@@ -40,12 +40,8 @@ const LoginPage = () => {
 
       login(res.data.user);
 
-      if (res.data.user.role === "admin"){
-        navigate("/admin/dashboard");
-      }
-      else{
-        navigate("/");
-      }
+      navigate("/");
+      
     } catch (error) {
       alert(
         error.response?.data
