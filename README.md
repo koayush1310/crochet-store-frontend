@@ -1,16 +1,92 @@
-# React + Vite
+# Knot Your Nani - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React-based e-commerce website for **Knot Your Nani**, a handmade crochet business offering custom crochet creations, keychains, amigurumis, flowers, and personalized gifts.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Customer Features
 
-## React Compiler
+* Browse crochet products
+* Product details page
+* Wishlist management
+* Shopping cart
+* WhatsApp-based ordering
+* Customer reviews and ratings
+* Contact form
+* User registration and login
+* Profile management
+* Order history tracking
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Admin Features
 
-## Expanding the ESLint configuration
+* Admin dashboard
+* Product management
+* Category management
+* Order management
+* Contact enquiry management
+* Order status updates
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+* React.js
+* React Router DOM
+* Axios
+* Tailwind CSS
+* Lucide React Icons
+
+## Installation
+
+```bash
+git clone <frontend-repository-url>
+cd crochet-store-frontend
+
+npm install
+npm run dev
+```
+
+## Environment Setup
+
+Update API URL in:
+
+```javascript
+src/api/axios.js
+```
+
+```javascript
+const API = axios.create({
+  baseURL: "YOUR_BACKEND_URL/api",
+});
+```
+
+## Build
+
+```bash
+npm run build
+```
+
+## Deployment
+
+Frontend is deployed on:
+
+* Vercel / Netlify
+
+## Project Structure
+
+```text
+src/
+├── api/
+├── components/
+├── context/
+├── layouts/
+├── pages/
+│   ├── admin/
+│   └── user/
+├── routes/
+└── assets/
+```
+
+## Developer
+
+Developed by Ayush
+
+B.Tech Student & Full Stack Developer
