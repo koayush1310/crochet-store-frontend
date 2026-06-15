@@ -31,7 +31,7 @@ const Navbar = () => {
           to="/"
           className="text-2xl font-bold text-pink-600"
         >
-          Knot Your Nani
+          CH-1 Studio
         </Link>
 
         <div className="hidden md:flex gap-6">
