@@ -13,7 +13,7 @@ const Footer = () => {
           <div>
 
             <h2 className="text-2xl font-bold text-pink-400">
-              Knot Your Nani
+              CH-1 Studio
             </h2>
 
             <p className="mt-4 text-gray-400 leading-relaxed">
